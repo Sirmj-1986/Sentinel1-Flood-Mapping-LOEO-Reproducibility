@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below."
+
+title: "Reproducibility workflow for multi-event Sentinel-1 flood mapping using adaptive Otsu thresholding and machine learning"
+type: software
+
+authors:
+  - given-names: "Momohjimoh"
+    family-names: "Abdulsalami"
+    orcid: "https://orcid.org/0000-0001-5078-7073"
+    affiliation: "Department of Physics, Confluence University of Science and Technology, Osara"
+
+  - given-names: "Fahad"
+    family-names: "Abubakar"
+    affiliation: "Department of Geosciences, Confluence University of Science and Technology, Osara"
+
+  - given-names: "Abdulmalik Onimisi"
+    family-names: "Danga"
+    affiliation: "Department of Geosciences, Confluence University of Science and Technology, Osara"
+
+version: "1.0.0"
+date-released: "2026-08-14"
+
+repository-code: "https://github.com/Sirmj-1986/Sentinel1-Flood-Mapping-LOEO-Reproducibility"
+
+license: "MIT"
+
+keywords:
+  - Sentinel-1
+  - flood inundation mapping
+  - adaptive Otsu thresholding
+  - LightGBM
+  - Random Forest
+  - XGBoost
+  - Leave-One-Event-Out
+  - spatial cross-validation
+  - TreeSHAP
+  - Niger-Benue confluence
+  - Nigeria
