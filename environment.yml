@@ -1,0 +1,22 @@
+name: sentinel1-flood-loeo
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - numpy>=1.24
+      - pandas>=2.0
+      - scipy>=1.10
+      - scikit-learn>=1.3
+      - xgboost>=2.0
+      - lightgbm>=4.0
+      - joblib>=1.3
+      - rasterio>=1.3
+      - geopandas>=0.14
+      - shapely>=2.0
+      - pyproj>=3.6
+      - earthengine-api>=0.1.390
+      - matplotlib>=3.7
+      - jupyterlab>=4.0
+      - ipykernel>=6.25

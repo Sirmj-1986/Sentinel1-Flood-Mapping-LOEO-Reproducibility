@@ -1,0 +1,22 @@
+# Python / notebooks
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+.DS_Store
+
+# Temporary download
+_reproducibility_data.zip
+
+# Restricted data: never commit by default
+data/restricted/*
+!data/restricted/README.md
+
+# Large derived rasters should be archived outside Git
+data/processed/rasters/*.tif
+results/*.tif
+
+# Serialized model artifacts may be large; archive release copies separately
+models/*.joblib
